@@ -1,12 +1,16 @@
-# ThunderConsole
+# The ThunderConsole
 
-## [Custom 8 bit processor](processor.md)
+## Custom 8 bit processor
 
-The processor has a 16 bit address bus, meaning the addressable space will be from 0000 to FFFF.  
+<sub><sup>_[main file](processor.md)_</sub></sup>  
+
+The processor has an 16 bit address bus and an 8 bit data bus, meaning the addressable space will be from 0000 to FFFF, and only 8 bits can be moved at once.  
 The instructions are 8 bits, but many instructions have extra data as parameters.  
 The ALU has a dual output, most of the time the second output will be the result of the opposite operation.  
 
-## [Custom controller](controller.md)
+## Custom controller
+
+<sub><sup>_[main file](controller.md)_</sub></sup>  
 
 The controller has a Joycon. This Joycon can be read from the code as an angle, between 0000 and FFFF. A reference angle can be set from code as well, usefull to define a custom up direction.  
 When the Joycon is properly angled, the Joycon bit in the controller byte will be set.

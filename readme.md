@@ -1,4 +1,4 @@
-# ThunderConsole concept
+# The ThunderConsole concept
 
 This repo is meant for me to create a fictional video game home console.  
 This console is inspired by the game consoles from the 80s and 90s, like these:
